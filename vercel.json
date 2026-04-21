@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/blaze-search", "dest": "/api/index.py" },
+    { "src": "/blaze-download", "dest": "/api/index.py" },
+    { "src": "/blaze-audio", "dest": "/api/index.py" },
+    { "src": "/(.*)", "dest": "/api/index.py" }
+  ]
+}
